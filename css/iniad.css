@@ -1,11 +1,28 @@
 body {
-  background-color: #794c13;
-  color: #FE4261;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
 }
 
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+ 
 h1 {
   font-size: 24px;
   text-align: center;
+  font-family: 'Sacramento', cursive;
 }
 
 h2 {
@@ -22,15 +39,19 @@ h3 {
 
 #schedule {
   padding: 10px 20px 10px 20px;
-  background-color: #9933ff;
+  background-color: whitesmoke;
 }
 
 .iniad {
-  color: #00cc00;
+  color: blue;
 }
 
 .time {
   font-weight: bold;
-  color: #cc0000;
+  color: #FF0000;
   font-size: 30px;
+}
+
+#schedule-learning{
+  background-image:url("https://images.app.goo.gl/5wDjqz83dftHydbM9");
 }
