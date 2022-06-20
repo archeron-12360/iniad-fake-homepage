@@ -38,8 +38,9 @@ h3 {
 }
 
 #schedule {
-  padding: 10px 20px 10px 20px;
-  background-color: whitesmoke;
+  padding: 30px 20px 30px 5px;
+  background-image: url(/Users/shimokawakentaro/Desktop/cs-exercise2022/cs-team2022/iniad-fake-homepage/iniad-campus2.jpeg);
+  background-repeat: no-repeat;
 }
 
 .iniad {
@@ -50,8 +51,4 @@ h3 {
   font-weight: bold;
   color: #FF0000;
   font-size: 30px;
-}
-
-#schedule-learning{
-  background-image:url("https://images.app.goo.gl/5wDjqz83dftHydbM9");
 }
